@@ -10,7 +10,7 @@ $name=$_POST['name'];
 $email=$_POST['email'];
 $amount=$_POST['amount'];
 
-$update="UPDATE customers SET name='$name' email='$email' amount='$amount' WHERE id='$id'";
+$update="INSERT INTO customers(name, email, amount) VALUES('$name', '$email', '$amount')";
 			
 $set1 = mysqli_query($conn, $update);
 
