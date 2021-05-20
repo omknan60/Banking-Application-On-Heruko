@@ -1,0 +1,73 @@
+body{
+    position: relative;
+    margin: 0px;
+}
+
+.header{
+    background-color: #232323;
+    position:-webkit-sticky;
+    position:sticky;
+    width: 100%;
+    height: 100px;
+    z-index: 99999;
+    margin: 0px;
+    padding:0px;
+}
+
+.header nav{
+    padding: 17px 10px 10px 10px;
+}
+
+.header .logo{
+    display: inline-block;
+    width:50%;
+    color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 700;
+	-webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    text-decoration:none;
+
+}
+
+.header .links{
+    display:  inline-block;
+    padding: 10px;
+    text-decoration:none;
+    color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	-webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+
+.header .links:active,
+.header .links:hover{
+    background-color: #646464;
+	color: #fff;
+	padding-bottom: 25px;
+	border-bottom: 3px solid #f33f3f;
+}
+
+main{
+    position:relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:700;
+  transition: all .3s ease 0s;
+  font-size: xxx-large;
+}
